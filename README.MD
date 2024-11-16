@@ -10,7 +10,7 @@ Para reproduzir este projeto, é necessário um ambiente de desenvolvimento para
 
 ### Código do NodeMCU ESP8266
 
-O código do microcontrolador é fornecido no arquivo `mqtt_esp8266.ino`. Este código, desenvolvido na **Arduino IDE**, realiza as seguintes funções:
+O código do microcontrolador é fornecido no arquivo [`mqtt_esp8266.ino`](https://github.com/RafaelTozzo/projeto_obj_int/blob/main/mqtt_esp8266.ino). Este código, desenvolvido na **Arduino IDE**, realiza as seguintes funções:
 - Conecta o NodeMCU à rede Wi-Fi.
 - Lê os valores de temperatura e umidade do sensor DHT11.
 - Publica os dados de temperatura e umidade via MQTT para um broker configurado.
@@ -19,7 +19,7 @@ O código do microcontrolador é fornecido no arquivo `mqtt_esp8266.ino`. Este c
 
 ### Código da Interface Node-RED
 
-A interface de monitoramento pode ser replicada importando o arquivo `node-red_script.json` no Node-RED. Essa interface exibe:
+A interface de monitoramento pode ser replicada importando o arquivo [`node-red_script.json`](https://github.com/RafaelTozzo/projeto_obj_int/blob/main/node-red_script.json) no Node-RED. Essa interface exibe:
 - Medidores gráficos para a temperatura e a umidade.
 - Indicador visual de semáforo LED para o status da temperatura (verde, amarelo e vermelho).
 - Link Node-RED: [https://nodered.org/](https://nodered.org/)
